@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+    height: 100%;
+    background: linear-gradient(to bottom,#2D0670,#8F55F2,#422770,#4A09BD) no-repeat;
+    background-size: cover;
+    font-family: 'Numans', sans-serif;
+}
+
+.container{
+    height: 100%;
+    align-content: center;
+}
+
+.card{
+    background-color: rgba(255,255,255,.4);
+    height: 440px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+}
+.card-header{
+    
+    font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.remember{
+    margin-top: 20px;
+    color: #8F55F2;
+    
+    
+}
+
+.remember input{
+width: 20px;
+height: 20px;
+margin-left: 20px;
+margin-right: 5px;
+}
+
+.entrar{
+    
+    margin-top: 30px;
+    margin-left: auto;
+}
+.entrar input{
+    margin-right: 20px;
+    width: 8em;
+}
+input::placeholder{
+    text-transform: uppercase;
+}
+
+.bg-icon{
+    background-color: #5F0CF0;
+    color: #fff;
+}
+
+.btn-format{
+    background-color: #5F0CF0;
+    color: #fff;
+}
+.btn-format:hover{
+    background-color: #8F55F2;
+}
+
+.social_icon span{
+    font-size: 30px;
+    margin-left: 10px;
+    color: #5F0CF0;
+}
+
+.social_icon span:hover{
+    cursor: pointer;
+    color: #8F55F2;
+}
